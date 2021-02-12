@@ -1,0 +1,7 @@
+ int Numero = 1; 
+		do{ 
+		 Console.WriteLine( Numero );
+		 Numero = Numero + 1;	
+			
+	 }
+	 while ( Numero <= 10 );
