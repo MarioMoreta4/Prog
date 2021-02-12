@@ -1,0 +1,16 @@
+Console.WriteLine("Introduzca el numero");
+		int Numero = 1;
+		int suma = 0;
+		while (Numero > 0 ){
+			Numero = int.Parse(Console.ReadLine());	
+			if ( Numero < 0) { 
+				break; 
+				
+			}else {
+				suma = suma + Numero;
+			}		
+	}
+		Console.WriteLine(suma);
+	}
+}
+
