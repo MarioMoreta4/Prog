@@ -1,0 +1,15 @@
+ int Contador = 1; 
+	int Producto =  100;	
+		do{ 
+		 
+			if(((Contador + Producto) % 2) == 0){
+			Console.WriteLine(Contador + Producto);
+			Contador = Contador +1;
+			}
+			else { Contador = Contador +1;
+			}
+				
+	 }
+	 while ( Contador <= 20);
+
+
